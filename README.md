@@ -28,7 +28,9 @@ Spring 2024 HTML/Web Design Coding Class
 -Changing visiblity
 
 ## Week 6
-Installing Node - Express.js - Hosting a web server
+Git and Github
 
 ## Week 7
-Hosting your website
+Hosting your website with Github pages
+Getting your own web domain
+Other hosting options
