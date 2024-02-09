@@ -5,18 +5,18 @@
 Web development is a very broad topic and I won't go into all the aspects of it, but the one we will concern ourselves with in this class is the art of creating websites that people will view through a web browser.
 
 Web development is a huge topic that can take a lifetime to understand
-It is a fast moving field as the web is constantly evolving, but at it's root it is based code.
+It is a fast moving field as the web is constantly evolving, but at it's root it is based on code.
 
 A web browser is really nothing more than a code interpreter. We'll explore this more later.
 
-There are 3 major languages in Web Development, all the rest build on these 3
+There are 3 major languages in Web Development [^1], all the rest build on these 3
 
 1) **HTML** - HyperText Markup Language
   - HTML describes the content and structure of the web page
 2) **CSS** - Cascading Style Sheets
   - CSS describes the formatting of the web page (color, fonts, spacing, anything else you can imagine)
 3) **Javascript**
-  - Javascript in smarts in websites, and is used to add interactive features
+  - Javascript is the smarts in websites, and is used to add interactive features
 
 HTML and CSS are **not** programming languages they are both markup languages
 
@@ -56,3 +56,5 @@ Download and install the right version for your operating system (Windows, Linux
     </body>
 </html>
 ```
+
+[^1]: Technically there is a 4th called webassembly, but it is fairly new and not heavily in use yet (only needed for high performance features that most websites don't need).
