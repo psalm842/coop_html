@@ -14,6 +14,10 @@ You can look up all the html tags at w3schools (and many other websites)
 
 [HTML Tags](https://www.w3schools.com/tags/ref_byfunc.asp)
 
+## Our IDE (Integrated Development Environment), aka Code Editor
+
+This week we will use [vscode.dev](vscode.dev) as our code editor. Go there in your web browser.
+
 ## HTML Tags
 
 ## Lists
