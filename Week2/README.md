@@ -14,6 +14,11 @@ You can look up all the html tags at w3schools (and many other websites)
 
 [HTML Tags](https://www.w3schools.com/tags/ref_byfunc.asp)
 
+### Example job
+
+[Creation.com Job Posting](https://mailing.creation.com/view.html?x=a62e&m=4IlhM&mc=X&s=FDPz4p&u=XLcX&z=N2gydQO&)
+
+
 ## Our IDE (Integrated Development Environment), aka Code Editor
 
 This week we will use [vscode.dev](vscode.dev) as our code editor. Go there in your web browser.
