@@ -18,6 +18,11 @@ You can look up all the html tags at w3schools (and many other websites)
 
 [Creation.com Job Posting](https://mailing.creation.com/view.html?x=a62e&m=4IlhM&mc=X&s=FDPz4p&u=XLcX&z=N2gydQO&)
 
+### Learn More!
+
+I am teaching you some HTML concepts, there is a lot more to learn. You can practice more here: 
+
+[webtutor.dev](https://webtutor.dev/html/html-introduction)
 
 ## Our IDE (Integrated Development Environment), aka Code Editor
 
