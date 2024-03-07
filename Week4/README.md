@@ -30,7 +30,7 @@
 - Javascript can be added in several ways, similar to css
     1. In the `<head>` of the html document using the `<script>` tag (similar to css's `<style>` tag)
     1. In the `<body>` of the html document 
-    1. A separate *.js file, use a `<script src=filename.js>` tag in the html document to allow the html document to be use the javascript file
+    1. A separate *.js file, use a `<script src=filename.js>` tag in the html document to allow the html document to use the javascript file
     
 ## The very basics of javascript
 
