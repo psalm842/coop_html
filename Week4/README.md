@@ -13,7 +13,7 @@
 - Javascript changes HTML
     - html is static, i.e. it doesn't change
     - Javascript lets us make html dynamic
-    - You can do almost anything you can imagine - when you click a button make an <h1> element become <h2> or change attributes of an existing tag or add new tags or remove tags, etc.
+    - You can do almost anything you can imagine - when you click a button make an `<h1>` element become `<h2>` or change attributes of an existing tag or add new tags or remove tags, etc.
 
 - Javascript makes web pages interactive, it's what allows them to respond to user input (mouse clicks, keyboard input)
 
