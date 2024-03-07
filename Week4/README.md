@@ -27,10 +27,10 @@
 
 ### Adding Javascript to your webpage
 
-- Javascript can be added 2 separate ways, similar to css
+- Javascript can be added in several ways, similar to css
     1. In the `<head>` of the html document using the `<script>` tag (similar to css's `<style>` tag)
     1. In the `<body>` of the html document 
-    1. A separate *.js file, use a `<script src=filename.js>` tag in the html document to allow the html document to be use the javascript file
+    1. A separate *.js file, use a `<script src=filename.js>` tag in the html document to allow the html document to use the javascript file
     
 ## The very basics of javascript
 
@@ -58,9 +58,9 @@ The above code creates a *function* named **increment**.
 
 A function is a piece of reusable code. Anywhere the function name is called the set of instructions contained in the `{}` is executed.
 
-Here we named our function `increment`, we can name the function anything we want. This is just so we can identify our function and what it does easily in the code.
+Here we named our function, `increment`; we can name the function anything we want. This is just so we can identify our function and what it does easily in the code.
 
-The line `count = count + 1` means "add 1 to the variable count and then assign that to count as it's new value"
+The line `count = count + 1` means "add 1 to the variable count and then assign that to count as its new value"
 
 ### Callbacks/Event Listeners
 
@@ -88,7 +88,7 @@ There are TWO ways callbacks can be set.
 
 </button>   
 <script type="text/javascript">
-    document.getElementById("increment").addEventListener(
+    document.getElementById("date_button").addEventListener(
         "click",
         {document.getElementById('date').innerHTML=Date()}
     )
