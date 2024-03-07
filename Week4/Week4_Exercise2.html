@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 4 - Exercise 1 - Javascript</title>
+        <style type="text/css">
+            #counter {color:chartreuse;}
+        </style>
+    </head>
+    <body>
+        <h1>Javascript!</h1>
+        <button type="button"
+            onclick="document.getElementById('date').innerHTML=Date()">
+            Show date and Time
+        </button>
+        <p id='date'></p>
+        <button type="button" id="increment">Click Me</button>
+        <p id="counter">0</p>
+        <script type="text/javascript">
+            document.getElementById("increment").addEventListener("click", countUp)
+            let count = 0;
+            function countUp() {
+                count = count + 1;
+                document.getElementById("counter").innerHTML = count; 
+            }
+        </script>
+    </body>
+</html>
