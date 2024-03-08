@@ -1,4 +1,4 @@
-# Requirments for Todoer App
+# System Requirments for Todoer App
 
 1. User can enter a new to do item and add it to the list
 1. User can delete items from the list

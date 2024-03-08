@@ -95,3 +95,32 @@ There are TWO ways callbacks can be set.
 </script>
 ```
 
+### Important Javascript Methods
+
+This website is a great resource: [javascripttutorial.net](https://www.javascripttutorial.net/javascript-dom/). Below are just a few of the highlights.
+
+The term "element" and "tag" are used interchangeably below
+
+#### Getting Elements
+
+- *getElementById("id")*<p>Gets an element by its id attribute. Remember ID is unique, so this will only get ONE element at a time 
+- *getElementsByTagName("tag")*<p>Gets all the elements with a given Tag Name, e.g. getElementsByTagName("h2")
+- *getElementsByQuerySelector("selector")*<p>Lets you use a css selector to get elements, e.g. getElementsByQuerySelector("h1 h2 h3") will get all the `<h1>`,`<h2>`, and `<h3>` tags
+
+*Note:* Some of the functions above get only ONE tag, some get multiple tags. When you have multiple things stored in a variable that is called an *array* in programming. We will look at this more next week. For now I just want you to be aware of it.
+
+#### Manipulating Elements
+
+- *createElement("tag")*<p>create a new HTML tag.
+- *innerHTML*<p>get and set the text content of an tag (i.e. the stuff between the opening and closing tag).
+
+#### Manipulating Attributes
+
+- *setAttribute("attribute_name", attribute_value)*<p>set the value of a specified attribute on a tag.
+- *getAttribute*<p>get the value of an attribute on an tag.
+- *removeAttribute*<p>remove an attribute from a specified tag.
+- *hasAttribute*<p>check if an tag has a specified attribute or not
+
+#### Logging to the console
+
+- *console.log("message")*Outputs a message to the console. This is extremely helpful when trying to figure out what your javascript is doing!
