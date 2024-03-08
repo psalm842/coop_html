@@ -127,4 +127,4 @@ We will look at this more next week. For now I just want you to be aware of it.
 #### Logging to the console
 
 - *console.log("message")*Outputs a message to the console. This is extremely helpful when trying to figure out what your javascript is doing!
-   - You can also log variables: `console.log("Right now it is", Date());`
+   - You can also log variables and/or the output of functions: `console.log("Right now it is", Date());` In this example we log the output of the Date() function to the console.
