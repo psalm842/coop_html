@@ -104,10 +104,13 @@ The term "element" and "tag" are used interchangeably below
 #### Getting Elements
 
 - *getElementById("id")*<p>Gets an element by its id attribute. Remember ID is unique, so this will only get ONE element at a time 
-- *getElementsByTagName("tag")*<p>Gets all the elements with a given Tag Name, e.g. getElementsByTagName("h2")
-- *getElementsByQuerySelector("selector")*<p>Lets you use a css selector to get elements, e.g. getElementsByQuerySelector("h1 h2 h3") will get all the `<h1>`,`<h2>`, and `<h3>` tags
+- *getElementsByTagName("tag")*<p>Gets all the elements with a given tag name, e.g. getElementsByTagName("h2")
+- *querySelector("selector")*<p>Gets the first element that matches the query selector
+- *querySelectorAll("selector")*<p>Lets you use a css selector to get elements, e.g. `document.querySelector("h1,h2,h3")` will get all the `<h1>`,`<h2>`, and `<h3>` elements
 
-*Note:* Some of the functions above get only ONE tag, some get multiple tags. When you have multiple things stored in a variable that is called an *array* in programming. We will look at this more next week. For now I just want you to be aware of it.
+*Note:* Some of the functions above get only ONE tag, some get multiple tags.
+When you have multiple things stored in a variable that is called an *array* in programming.
+We will look at this more next week. For now I just want you to be aware of it.
 
 #### Manipulating Elements
 
@@ -124,3 +127,4 @@ The term "element" and "tag" are used interchangeably below
 #### Logging to the console
 
 - *console.log("message")*Outputs a message to the console. This is extremely helpful when trying to figure out what your javascript is doing!
+   - You can also log variables: `console.log("Right now it is", Date());`
