@@ -106,7 +106,7 @@ The term "element" and "tag" are used interchangeably below
 - *getElementById("id")*<p>Gets an element by its id attribute. Remember ID is unique, so this will only get ONE element at a time 
 - *getElementsByTagName("tag")*<p>Gets all the elements with a given tag name, e.g. getElementsByTagName("h2")
 - *querySelector("selector")*<p>Gets the first element that matches the query selector
-- *querySelectorAll("selector")*<p>Lets you use a css selector to get elements, e.g. `document.querySelector("h1,h2,h3")` will get all the `<h1>`,`<h2>`, and `<h3>` elements
+- *querySelectorAll("selector")*<p>Lets you use a css selector to get elements, e.g. `document.querySelectorAll("h1,h2,h3")` will get all the `<h1>`,`<h2>`, and `<h3>` elements
 
 *Note:* Some of the functions above get only ONE tag, some get multiple tags.
 When you have multiple things stored in a variable that is called an *array* in programming.
